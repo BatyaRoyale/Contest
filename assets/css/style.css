@@ -1,0 +1,88 @@
+*{
+    margin: 0;  
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+body{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.33) 0%, rgba(0, 0, 0, 0.33) 100%), radial-gradient(103.1% 141.42% at 0% 0%, #1C2836 0%, #0F1B29 45.05%, #132030 57.88%, #1C2836 100%) no-repeat;
+}
+.container{
+    max-width: 1426px;
+    margin: 0 auto;
+}
+
+/* HEADER */
+.header-content{
+    padding: 22px 0 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-buttons{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+.btn{
+    background-color: white;
+    padding: 12px 18px;
+    color: black;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+.header-btn{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.profile-link{
+    color: #D23918;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+/* HEADER-END */
+/* MAIN */
+.contest{
+    background: url(../img/bacground.png)no-repeat ;
+    
+}
+.contest-text{
+    padding: 166px 0 0 0;
+    display: flex;
+    align-items: flex-end;
+    gap: 160px;
+}
+.contest-title{
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 9.28px;
+    text-transform: uppercase;
+}
+.contest-link{
+    display: inline-flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 25px;
+}
+.category{
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 3.48px;
+    text-transform: capitalize;
+}
+/* MAIN-END */
